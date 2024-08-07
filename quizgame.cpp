@@ -3,7 +3,7 @@
 using namespace std;
 
 void display(string name){
-    cout<<"    "<<"***INSTUCTIONS***\n";
+    cout<<"    "<<"***INSTRUCTIONS***\n";
     cout<<"-> There are 5 easy level GK questions in this quiz.\n";
     cout<<"-> To answer a quesion you have 30 seconds.\n";
     cout<<"-> If answer is not in the time limit zero marks will be awarded.\n";
@@ -64,7 +64,7 @@ bool q3(){
     auto start_time=
     chrono::high_resolution_clock::now();
 
-    cout<<"\nQuestion 3: "<<"What does WWW stand for?\n";
+    cout<<"\nQuestion 3: "<<"What does WWW stands for?\n";
     cout<<"1. World Wide Web\n";
     cout<<"2. World Web Warriors \n";
     cout<<"3. Wide World Web\n";
