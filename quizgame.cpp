@@ -100,7 +100,7 @@ bool q4(){
     auto duration = chrono::duration_cast<chrono::seconds>(end_time-start_time).count();
 
     if(duration>30) cout<<"Time's up";
-    else if(ans==3) answer=true;
+    else if(ans==2) answer=true;
     return answer;
 }
 bool q5(){
